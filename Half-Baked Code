@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src='processing.min.js'>
+</script>
+<script>
+	$(document).ready(function() {
+		$("input").change(function(){		
+			if ($("#checkbox-v-2a").is(":checked")) 
+			{ $("#checkbox-v-2a-display").show();
+			}
+			else {$("#checkbox-v-2a-display").hide();
+				}
+
+			if ($("#checkbox-v-2b").is(":checked"))
+			{ $("#checkbox-v-2b-display").show();
+			}
+			else {$("#checkbox-v-2b-display").hide();
+			}
+			
+		    if ($("#checkbox-v-2c").is(":checked"))
+			{ $("#checkbox-v-2c-display").show();
+			}
+			else{ $("#checkbox-v-2c-display").hide();
+			}
+	
+			if ($("#checkbox-v-2d").is(":checked"))
+			{ $("#checkbox-v-2d-display").show();
+			}
+			else{ $("#checkbox-v-2d-display").hide();
+			}
+
+			if ($("#checkbox-v-2e").is(":checked"))
+			{ $("#checkbox-v-2e-display").show();
+			}
+			else{ $("#checkbox-v-2e-display").hide();
+			}
+
+
+			if ($("#checkbox-v-2f").is(":checked"))
+			{ $("#checkbox-v-2f-display").show();
+			}
+			else{ $("#checkbox-v-2f-display").hide();
+			}
+
+			if ($("#checkbox-v-2g").is(":checked"))
+			{ $("#checkbox-v-2g-display").show();
+			}
+			else{ $("#checkbox-v-2g-display").hide();
+			}
+
+			if ($("#checkbox-v-2h").is(":checked"))
+			{ $("#checkbox-v-2h-display").show();
+			}
+			else{ $("#checkbox-v-2h-display").hide();
+			};
+		});
+	});
+</script>
+
+<style>
+	.checkboxdisplay {
+		display: none;
+	}
+</style>
+</head>
+
+<body>
+<div data-role="page" id = "KeepCalmAndMakeTea">
+<div role="main" class="ui-content">
+	<p>
+
+	<form>
+    <fieldset data-role="controlgroup">
+        <legend>1. What do you like to do in your free time?</legend>
+        <input type="checkbox" name="checkbox-v-2a" id="checkbox-v-2a">
+        <label for="checkbox-v-2a">Take pictures</label>
+        <input type="checkbox" name="checkbox-v-2b" id="checkbox-v-2b">
+        <label for="checkbox-v-2b">Play a game</label>
+        <input type="checkbox" name="checkbox-v-2c" id="checkbox-v-2c">
+        <label for="checkbox-v-2c">Code</label>
+        <input type="checkbox" name="checkbox-v-2d" id="checkbox-v-2d">
+        <label for="checkbox-v-2d">Check disaster reports</label>
+    </fieldset>
+	</form>
+	<a href = "#353x4"><button class="ui-btn ui-corner-all">Next</button></a>
+	</p>
+	</div><!-- /content -->
+</body>
+<div data-role="page" id = "353x4">
+<div role="main" class="ui-content">
+	<p>
+
+	<form>
+    <fieldset data-role="controlgroup">
+        <legend>2. How would your friends describe you?</legend>
+        <input type="checkbox" name="checkbox-v-2a" id="checkbox-v-2a">
+        <label for="checkbox-v-2a">Nerdy and creative</label>
+        <input type="checkbox" name="checkbox-v-2b" id="checkbox-v-2b">
+        <label for="checkbox-v-2b">Outgoing and artistic</label>
+        <input type="checkbox" name="checkbox-v-2c" id="checkbox-v-2c">
+        <label for="checkbox-v-2c">Engaged and coordinated</label>
+        <input type="checkbox" name="checkbox-v-2d" id="checkbox-v-2d">
+        <label for="checkbox-v-2d">Cautious and prepared</label>
+    </fieldset>
+	</form>
+	<a href = "#shakespeare"><button class="ui-btn ui-corner-all">Next</button></a>
+	</p>
+	</div><!-- /content -->
+</body>
+<div data-role="page" id = "shakespeare">
+<div role="main" class="ui-content">
+	<p>
+
+	<form>
+    <fieldset data-role="controlgroup">
+        <legend>1. What do you like to do in your free time?</legend>
+        <input type="checkbox" name="checkbox-v-2a" id="checkbox-v-2a">
+        <label for="checkbox-v-2a">Take pictures</label>
+        <input type="checkbox" name="checkbox-v-2b" id="checkbox-v-2b">
+        <label for="checkbox-v-2b">Play a game</label>
+        <input type="checkbox" name="checkbox-v-2c" id="checkbox-v-2c">
+        <label for="checkbox-v-2c">Code</label>
+        <input type="checkbox" name="checkbox-v-2d" id="checkbox-v-2d">
+        <label for="checkbox-v-2d">Check disaster reports</label>
+    </fieldset>
+	</form>
+	<a href = "#Let'sDoTheTimeWarpAgain"><button class="ui-btn ui-corner-all">Next</button></a>
+	</p>
+	</div><!-- /content -->
+</body>
+<div data-role="page" id = "Let'sDoTheTimeWarpAgain">
+<div role="main" class="ui-content">
+	<p>
+
+	<form>
+    <fieldset data-role="controlgroup">
+        <legend>1. What do you like to do in your free time?</legend>
+        <input type="checkbox" name="checkbox-v-2a" id="checkbox-v-2a">
+        <label for="checkbox-v-2a">Take pictures</label>
+        <input type="checkbox" name="checkbox-v-2b" id="checkbox-v-2b">
+        <label for="checkbox-v-2b">Play a game</label>
+        <input type="checkbox" name="checkbox-v-2c" id="checkbox-v-2c">
+        <label for="checkbox-v-2c">Code</label>
+        <input type="checkbox" name="checkbox-v-2d" id="checkbox-v-2d">
+        <label for="checkbox-v-2d">Check disaster reports</label>
+    </fieldset>
+	</form>
+	</p>
+	</div><!-- /content -->
+</body>
+
+</html>
